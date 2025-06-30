@@ -23,9 +23,17 @@ function strLengthEven(str){
     return str.length % 2 === 0;
 
 }
-console.log(strLengthEven("hello"));
+// console.log(strLengthEven("hello"));
 
 
 
-
-// function findRabbit(arr){}
+function findRabbit(arr){
+    let result=[];
+    for (let i=0; i<arr.length; i+=1){
+        if(arr[i]=== "rabbit"){
+            result.push(arr[i]);
+        }
+    }
+    return result;
+}
+console.log(findRabbit(['tshering','is','a','rabbit']));
