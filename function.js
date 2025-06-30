@@ -14,18 +14,18 @@ function replace(str,charToReplace,strReplacement){
     }
 return result;
 }
-console.log(replace("hello","o","0987"));
+// console.log(replace("hello","o","0987"));
 
 
 
 
+function strLengthEven(str){
+    return str.length % 2 === 0;
+
+}
+console.log(strLengthEven("hello"));
 
 
 
-
-
-
-
-// function strLengthEven(str){}
 
 // function findRabbit(arr){}
