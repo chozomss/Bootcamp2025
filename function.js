@@ -48,6 +48,7 @@ function subtractTen(num){
 
 function isSquare(num){
   if (num < 0 ) {
+    
       return false;
   }
   const sqrNum = Math.sqrt(num);
