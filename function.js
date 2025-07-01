@@ -37,3 +37,26 @@ function findRabbit(arr){
     return result;
 }
 console.log(findRabbit(['tshering','is','a','rabbit']));
+
+function subtractTen(num){
+    return num-10;
+}
+
+
+
+
+
+function isSquare(num){
+  if (num < 0 ) {
+      return false;
+  }
+  const sqrNum = Math.sqrt(num);
+  return Number.isInteger(sqrNum);
+}
+
+console.log(isSquare(-1));
+console.log(isSquare(0));
+console.log(isSquare(3));
+console.log(isSquare(4));
+console.log(isSquare(25));
+console.log(isSquare(26));
