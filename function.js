@@ -62,7 +62,6 @@ function removeExclamationMarks(s) {
     if(s[i] !== '!'){
       result += s[i]
     }
-    
   }
   return result;
 }
