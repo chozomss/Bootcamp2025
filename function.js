@@ -41,14 +41,8 @@ console.log(findRabbit(['tshering','is','a','rabbit']));
 function subtractTen(num){
     return num-10;
 }
-
-
-
-
-
 function isSquare(num){
   if (num < 0 ) {
-    
       return false;
   }
   const sqrNum = Math.sqrt(num);
@@ -61,3 +55,15 @@ console.log(isSquare(3));
 console.log(isSquare(4));
 console.log(isSquare(25));
 console.log(isSquare(26));
+
+function removeExclamationMarks(s) {
+  let result='';
+  for(let i = 0; i < s.length; i += 1){
+    if(s[i] !== '!'){
+      result += s[i]
+    }
+    
+  }
+  return result;
+}
+console.log( removeExclamationMarks('hello! world!!!!!'));
